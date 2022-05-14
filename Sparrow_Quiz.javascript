@@ -2,16 +2,25 @@
 <html>
 <style>
 body {
-  background-color: lightgray;
-  opacity: 1;
+  background-color:rgb(220, 220, 220);
   }
 h2 {
-  color: white;
-  text-align: center;
+background-color:rgb(240, 240, 240);
+border: 2px , 20px solid;
+border-color:
+rgb(90, 0, 240)
+rgb(200, 200, 200)
+rgb(200, 200, 200)
+rgb(200, 200, 200);
+padding: 10px;
+border-radius: 5px;
 }
 p {
-  color: red;
-  text-align: center;
+background-color:rgb(240, 240, 240);
+border: 1px solid;
+border-color:rgb(200, 200, 200);
+border-radius: 5px;
+padding: 10px;
 }
 </style>
 <body>
@@ -33,8 +42,7 @@ onclick='document.getElementById("question1").innerHTML = "Incorrect"'>135 meter
 onclick='document.getElementById("question1").innerHTML = "Incorrect"'>15 meters per beat</button>
 
 <br> <br>
-<p2 id= "question2">How much does a swallow weigh?</p2>
-<br>
+<p id= "question2">How much does a swallow weigh?</p>
 
 <button type ="button"
 onclick='document.getElementById("question2").innerHTML = "Incorrect"'>3 - 5 oz</button>
