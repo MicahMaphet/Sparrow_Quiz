@@ -6,9 +6,9 @@ div {
   height: 50px;
   animation-name: swallow;
   position: relative;
-  background-color:rgb(200, 150, 100);
+  background-color:rgb(150, 100, 50);
   border: 4px solid;
-  border-color: rgb(150, 50, 30);
+  border-color: rgb(120, 20, 10);
   border-radius: 10px;
   animation-duration: 5s;
   animation-iteration-count: infinite;
